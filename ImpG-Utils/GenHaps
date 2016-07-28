@@ -54,7 +54,7 @@ all_haps = dict()
 for line in hapfile:
     line = line[:-1]
     cols = line.split()
-    snp_id = cols[1]
+    snp_id = cols[2]
     if(snp_id[0:2] != "rs"):
         continue
     hap_line = ""
